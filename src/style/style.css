@@ -1,7 +1,14 @@
+:root {
+    --bg-color: rgb(148 163 184);
+    --card-color: rgb(51 65 85);
+    --light-gray-color: rgb(229 231 235);
+    --green-color: rgb(5 150 105);
+}
+
 body {
     box-sizing: border-box;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(148 163 184);
+    background-color: var(--bg-color);
 }
 
 .card {
@@ -11,7 +18,7 @@ body {
     transform: translate(-50%, -50%);
     width: 700px;
     height: 400px;
-    background-color: rgb(51 65 85);
+    background-color: var(--card-color);
     border-radius: 10px;
 }
 
@@ -24,7 +31,7 @@ body {
 .card_id-advice {
     font-size: 20px;
     font-weight: 700;
-    color: rgb(5 150 105);
+    color: var(--green-color);
     text-align: center;
     margin: 30px 0;
 }
@@ -33,7 +40,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     line-height: 1.6em;
-    color: rgb(229 231 235);
+    color: var(--light-gray-color);
     text-align: center;
 }
 
@@ -47,7 +54,7 @@ body {
 hr {
     height: 4px;
     border: 0;
-    background-color: rgb(229 231 235);
+    background-color: var(--light-gray-color);
     width: 50%;
 }
 
@@ -84,15 +91,11 @@ hr {
     }
 
     .card_id-advice {
-        font-size: 20px;
-        font-weight: 700;
-        color: rgb(5 150 105);
-        text-align: center;
-        margin: 30px 0;
+        font-size: 18px;
     }
 
     .card_advice {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     hr {
