@@ -72,3 +72,45 @@ hr {
     width: 60px;
     height: 60px;
 }
+
+@media (max-width: 700px) {
+    .card {
+        width: 350px;
+        /* min-width: 350px; */
+    }
+    
+    .card_app {
+        margin: 40px auto 60px;
+    }
+
+    .card_id-advice {
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(5 150 105);
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .card_advice {
+        font-size: 26px;
+    }
+
+    hr {
+        height: 2px;
+    }
+
+    .icon-quotes {
+        width: 30px;
+        height: 30px;
+    }
+
+    .random-btn {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cube_icon {
+        width: 40px;
+        height: 40px;
+    }
+}
